@@ -3,4 +3,6 @@
 PERSONS=("Ramesh" "Suresh" "sachin")
 
 #inside array index always starts with 0
-echo "First Peerson: ${PERSONS[0]}"
+echo "First Person: ${PERSONS[0]}"
+
+echo "All Persons: ${PERSONS[@]}"
